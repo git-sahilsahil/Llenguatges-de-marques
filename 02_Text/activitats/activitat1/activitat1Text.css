@@ -1,0 +1,79 @@
+/* Configuració general de la pàgina */
+body {
+    background-color: #bbbbbb;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/* Capçalera principal */
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Seccions i línies divisòries */
+.subtitol {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.separador {
+    border: 0;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+/* --- ESTRUCTURA I ALINEACIONS --- */
+
+.etiqueta-blava {
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+    width: 230px; /* Manté l'alineació de les fórmules */
+}
+
+.etiqueta-vermella {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: red;
+    display: inline-block;
+    width: 100px; /* Manté l'alineació de les etiquetes web */
+}
+
+/* Caixes de resultat */
+.caixa-formula {
+    background-color: black;
+    color: white;
+    padding: 3px 8px;
+    display: inline-block;
+}
+
+.caixa-etiqueta {
+    background-color: yellow;
+    color: #000000;
+    padding: 3px 8px;
+    border: 1px solid red;
+    display: inline-block;
+}
+
+/* --- TIPOGRAFIES INDIVIDUALS (Requisit de l'activitat) --- */
+
+.aigua { font-family: Arial, sans-serif; }
+.aigua-formula { font-family: 'Courier New', monospace; }
+
+.einstein { font-family: Verdana, sans-serif; }
+.einstein-formula { font-family: 'Times New Roman', serif; }
+
+.capcalera { font-family: 'Trebuchet MS', sans-serif; }
+.capcalera-etiqueta { font-family: 'Lucida Console', monospace; }
+
+.cos { font-family: 'Georgia', serif; }
+.cos-etiqueta { font-family: Tahoma, sans-serif; }
